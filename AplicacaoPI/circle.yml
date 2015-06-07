@@ -8,4 +8,4 @@ deployment:
   staging:
     branch: master
     heroku:
-      appname: aplicacaopi
+      appname: cryptic-harbor-8088
