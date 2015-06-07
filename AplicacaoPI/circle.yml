@@ -1,0 +1,11 @@
+machine:
+  node:
+    version: 0.10.22
+dependencies:
+  pre: 
+    - npm install -g grunt coffee-script
+deployment:
+  staging:
+    branch: master
+    heroku:
+      appname: aplicacaopi
