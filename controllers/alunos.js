@@ -1,12 +1,12 @@
 module.exports = function(app) 
 {
 	//var Usuario = app.models.usuario;
-	var HomeController = 
+	var AlunosController = 
 	{
 	  	index: function(req, res)
 	 	{
-			res.render('home/index');
+			res.render('alunos/index');
 		},
 	};
-	return HomeController;
+	return AlunosController;
 };
